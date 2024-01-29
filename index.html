@@ -4,44 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=], initial-scale=1.0" />
     <title>Omnifood</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="#">
-        <img src="img/omnifood-logo.png" alt="" width="150" />
+        <img src="img/omnifood-logo.png" alt="" class="logo" />
       </a>
-      <nav>
+      <nav class="main-nav">
         <ul>
-          <li><a href="">How it works</a></li>
-          <li><a href="">Meals</a></li>
-          <li><a href="">Testimonials</a></li>
-          <li><a href="">Pricing</a></li>
+          <li><a href="" class="main-nav-link">How it works</a></li>
+          <li><a href="" class="main-nav-link">Meals</a></li>
+          <li><a href="" class="main-nav-link">Testimonials</a></li>
+          <li><a href="" class="main-nav-link">Pricing</a></li>
           <li><a href="" class="btn">Try for free</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="home" id="home">
-      <h1>A healthy meal delivered to your door, every single day</h1>
-      <p>
-        The smart 365-days-per-year food subscription that will make you eat
-        healthy again. Tailored to your personal tastes and nutritional needs.
-      </p>
-      <img src="img/hero.png" alt="" width="600" />
-      <div>
-        <a href="" class="btn">Start eating well</a>
-        <a href="" class="btn">Learn more</a>
+    <section class="section-hero" id="home">
+      <div class="hero-text-content">
+        <h1 class="primary-heading">
+          A healthy meal <br />
+          delivered to your door, <br />
+          every single day
+        </h1>
+
+        <p class="hero-description">
+          The smart 365-days-per-year food subscription that will make you eat
+          healthy again. Tailored to your personal tastes and nutritional needs.
+        </p>
+
+        <div>
+          <a href="" class="btn">Start eating well</a>
+          <a href="" class="btn btn--outline">Learn more</a>
+        </div>
+
+        <div class="hero-costumer-img">
+          <div>
+            <img src="img/customers/customer-1.jpg" alt="" />
+            <img src="img/customers/customer-2.jpg" alt="" />
+            <img src="img/customers/customer-3.jpg" alt="" />
+            <img src="img/customers/customer-4.jpg" alt="" />
+            <img src="img/customers/customer-5.jpg" alt="" />
+            <img src="img/customers/customer-6.jpg" alt="" />
+          </div>
+          <p class="delivered-meals">
+            <span>250,000+</span> meals delivered last year!
+          </p>
+        </div>
       </div>
 
-      <div>
-        <img src="img/customers/customer-1.jpg" alt="" />
-        <img src="img/customers/customer-2.jpg" alt="" />
-        <img src="img/customers/customer-3.jpg" alt="" />
-        <img src="img/customers/customer-4.jpg" alt="" />
-        <img src="img/customers/customer-5.jpg" alt="" />
-        <img src="img/customers/customer-6.jpg" alt="" />
-        <span>250,000+ meals delivered last year!</span>
-      </div>
+      <img src="img/hero.png" alt="" width="600" class="hero-img" />
     </section>
 
     <section class="logo">
