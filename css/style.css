@@ -85,3 +85,62 @@ a {
 .delivered-meals span {
   color: #e67e22;
 }
+
+/* 
+************
+SECTION LOGO
+************ */
+
+.section-logo {
+  text-align: center;
+  padding: 4rem;
+}
+
+.section-logo img {
+  height: 2rem;
+  margin: 1.5rem 1rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* 
+************
+SECTION HOW
+************ */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 6rem;
+  place-items: center;
+  padding: 0 1rem;
+}
+
+.section-how {
+  display: grid;
+  place-content: center;
+}
+
+.section-how img {
+  max-width: 13rem;
+}
+
+.section-how > span {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.step-number {
+  display: inline-block;
+  font-size: 5.4rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.step-text-box p {
+  font-size: 1.13rem;
+  line-height: 1.7;
+}
