@@ -347,3 +347,72 @@ SECTION HOW
   color: #333;
   margin-bottom: 1rem;
 }
+
+.section-cta {
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+  color: #45260a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cta-img {
+  width: 100%;
+  height: 100%;
+}
+
+.cta-content {
+  padding: 3rem;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-text {
+  font-size: 1.25;
+  margin-bottom: 2rem;
+}
+
+.cta-content .secundary-heading {
+  margin-bottom: 2rem;
+  color: inherit;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.cta-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.12rem;
+}
+
+.btn--form {
+  background-color: #45260a;
+  font-weight: 600;
+  align-self: end;
+  font-size: 1.25rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #45260a;
+}
+
+.cta-img {
+  background-image: linear-gradient(to right bottom, #eb974e69, #e67d222c),
+    url("../img/eating.jpg");
+  background-size: cover;
+}
