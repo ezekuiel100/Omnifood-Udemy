@@ -356,6 +356,8 @@ SECTION HOW
   color: #45260a;
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 8rem;
+  box-shadow: 0 10px 36px #0000001c;
 }
 
 .cta-img {
@@ -415,4 +417,50 @@ SECTION HOW
   background-image: linear-gradient(to right bottom, #eb974e69, #e67d222c),
     url("../img/eating.jpg");
   background-size: cover;
+}
+
+.footer {
+  padding: 10rem;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-content: center;
+  gap: 2rem;
+  max-width: 75rem;
+  margin: auto;
+}
+
+.footer-logo {
+  margin-bottom: 6rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #767676;
+}
+
+.footer ul {
+  list-style: none;
+  line-height: 2.3;
+}
+
+.footer .address {
+  margin-bottom: 2rem;
+}
+
+.footer-heading {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.footer a:link {
+  color: #767676;
+  transition: all 500ms;
+}
+
+.footer a:hover {
+  color: #555;
 }
