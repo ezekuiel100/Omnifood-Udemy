@@ -24,39 +24,44 @@
     </header>
 
     <section class="section-hero" id="home">
-      <div class="hero-text-content">
-        <h1 class="primary-heading">
-          A healthy meal <br />
-          delivered to your door, <br />
-          every single day
-        </h1>
+      <div class="hero">
+        <div class="hero-text-content">
+          <h1 class="primary-heading">
+            A healthy meal <br />
+            delivered to your door, <br />
+            every single day
+          </h1>
 
-        <p class="hero-description">
-          The smart 365-days-per-year food subscription that will make you eat
-          healthy again. Tailored to your personal tastes and nutritional needs.
-        </p>
+          <p class="hero-description">
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy again. Tailored to your personal tastes and nutritional
+            needs.
+          </p>
+
+          <div>
+            <a href="" class="btn">Start eating well</a>
+            <a href="" class="btn btn--outline">Learn more &darr;</a>
+          </div>
+
+          <div class="hero-costumer-img">
+            <div>
+              <img src="img/customers/customer-1.jpg" alt="" />
+              <img src="img/customers/customer-2.jpg" alt="" />
+              <img src="img/customers/customer-3.jpg" alt="" />
+              <img src="img/customers/customer-4.jpg" alt="" />
+              <img src="img/customers/customer-5.jpg" alt="" />
+              <img src="img/customers/customer-6.jpg" alt="" />
+            </div>
+            <p class="delivered-meals">
+              <span>250,000+</span> meals delivered last year!
+            </p>
+          </div>
+        </div>
 
         <div>
-          <a href="" class="btn">Start eating well</a>
-          <a href="" class="btn btn--outline">Learn more &darr;</a>
-        </div>
-
-        <div class="hero-costumer-img">
-          <div>
-            <img src="img/customers/customer-1.jpg" alt="" />
-            <img src="img/customers/customer-2.jpg" alt="" />
-            <img src="img/customers/customer-3.jpg" alt="" />
-            <img src="img/customers/customer-4.jpg" alt="" />
-            <img src="img/customers/customer-5.jpg" alt="" />
-            <img src="img/customers/customer-6.jpg" alt="" />
-          </div>
-          <p class="delivered-meals">
-            <span>250,000+</span> meals delivered last year!
-          </p>
+          <img src="img/hero.png" alt="" class="hero-img" />
         </div>
       </div>
-
-      <img src="img/hero.png" alt="" width="600" class="hero-img" />
     </section>
 
     <section class="section-logo">
@@ -276,38 +281,52 @@
       </div>
     </section>
 
-    <section class="pricing" id="pricing">
-      <span>PRICING</span>
-      <h2>Eating well without breaking the bank </h2>
-
-      <div>
-        <h4>STARTER</h4>
-        <span>$399</span>
-        <p>per month. That's just $13 per meal!</p>
-
-        <ul>
-          <li>1 meal per day </li>
-          <li>Order from 11am to 9pm </li>
-          <li>Delivery is free </li>
-          <li>* </li>
-        </ul>
-
-        <a href="" class="btn">Start eating well</a>
+    <section class="section-pricing" id="pricing">
+      <div class="pricing-title">
+        <span class="subheading">PRICING</span>
+        <h2 class="secundary-heading"
+          >Eating well without breaking the bank
+        </h2>
       </div>
 
-      <div>
-        <h4>COMPLETE</h4>
-        <span>$648</span>
-        <p>per month. That's just $11 per meal!</p>
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <header class="plan-header">
+            <h4 class="plan-name">STARTER</h4>
+            <p class="plan-price">$399</p>
+            <p>per month. That's just $13 per meal!</p>
+          </header>
 
-        <ul>
-          <li>2 meal per day </li>
-          <li>Order <strong>24/7</strong> </li>
-          <li>Delivery is free </li>
-          <li>Get access to latest recipes</li>
-        </ul>
+          <ul>
+            <li>1 meal per day </li>
+            <li>Order from 11am to 9pm </li>
+            <li>Delivery is free </li>
+            <li>* </li>
+          </ul>
 
-        <a href="" class="btn">Start eating well</a>
+          <div class="plan-sign-up">
+            <a href="" class="btn">Start eating well</a>
+          </div>
+        </div>
+
+        <div class="pricing-card pricing-plan--complete">
+          <header header class="plan-header">
+            <h4 class="plan-name">COMPLETE</h4>
+            <p class="plan-price">$648</p>
+            <p>per month. That's just $11 per meal!</p>
+          </header>
+
+          <ul>
+            <li><strong>2 meal</strong> per day </li>
+            <li>Order <strong>24/7</strong> </li>
+            <li>Delivery is free </li>
+            <li>Get access to latest recipes</li>
+          </ul>
+
+          <div class="plan-sign-up">
+            <a href="" class="btn">Start eating well</a>
+          </div>
+        </div>
       </div>
 
       <p>
@@ -315,35 +334,37 @@
         plans include the following:
       </p>
 
-      <div>
-        <h4>Never cook again! </h4>
-        <p>
-          Our subscriptions cover 365 days per year, even including major
-          holidays.
-        </p>
-      </div>
-      <div>
-        <h4>Local and organic </h4>
-        <p>
-          Our cooks only use local, fresh, and organic products to prepare your
-          meals.
-        </p>
-      </div>
+      <div class="plan-features">
+        <div>
+          <h4 class="feature-title">Never cook again! </h4>
+          <p>
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div>
+          <h4 class="feature-title">Local and organic </h4>
+          <p>
+            Our cooks only use local, fresh, and organic products to prepare
+            your meals.
+          </p>
+        </div>
 
-      <div>
-        <h4>No waste </h4>
-        <p>
-          All our partners only use reusable containers to package all your
-          meals.
-        </p>
-      </div>
+        <div>
+          <h4 class="feature-title">No waste </h4>
+          <p>
+            All our partners only use reusable containers to package all your
+            meals.
+          </p>
+        </div>
 
-      <div>
-        <h4>Pause anytime </h4>
-        <p>
-          Going on vacation? Just pause your subscription, and we refund unused
-          days.
-        </p>
+        <div>
+          <h4 class="feature-title">Pause anytime </h4>
+          <p>
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
+        </div>
       </div>
     </section>
 
