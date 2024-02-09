@@ -117,7 +117,7 @@ SECTION LOGO
 ************
 SECTION HOW
 ************ */
-.container {
+.how-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
@@ -278,18 +278,22 @@ SECTION HOW
 }
 
 .section-pricing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0 2rem;
   margin: 6rem 0;
 }
 
 .pricing-title {
   text-align: left;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .pricing-container {
-  display: flex;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: 75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 5rem;
 }
 
@@ -298,7 +302,11 @@ SECTION HOW
   border-radius: 10px;
   border: 2px solid #fdf2e9;
   font-size: 1.12rem;
-  margin-bottom: 3rem;
+  width: 70%;
+}
+
+.pricing--start {
+  justify-self: end;
 }
 
 .pricing-plan--complete {
@@ -332,6 +340,10 @@ SECTION HOW
   text-align: center;
 }
 
+.plan-details {
+  text-align: center;
+}
+
 .plan-features {
   max-width: 70rem;
   display: grid;
@@ -349,6 +361,10 @@ SECTION HOW
 }
 
 .section-cta {
+  padding: 1rem;
+}
+
+.cta-container {
   max-width: 70rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -420,7 +436,7 @@ SECTION HOW
 }
 
 .footer {
-  padding: 10rem;
+  padding: 10rem 5rem;
   border-top: 1px solid #eee;
 }
 

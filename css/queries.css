@@ -1,0 +1,160 @@
+@media (max-width: 1000px) {
+  .footer-container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 80%;
+  }
+
+  .logo {
+    height: 1rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-costumer-img {
+    justify-content: center;
+  }
+
+  .hero-img {
+    max-width: 60%;
+  }
+
+  .main-nav ul {
+    gap: 1rem;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .pricing-container {
+    gap: 2rem;
+  }
+
+  .pricing-card {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 10rem 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .plan-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 70%;
+  }
+
+  .main-nav ul {
+    display: none;
+  }
+
+  .meals-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    row-gap: 3rem;
+  }
+
+  .testimonials-content {
+    padding: 6rem 3rem;
+  }
+
+  .diets {
+    grid-column: 1/-1;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .how-container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .meals-container {
+    grid-template-columns: 1fr;
+  }
+
+  .step-img-box {
+    transform: translateY(4rem);
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .meal,
+  .diets {
+    width: 25rem;
+  }
+
+  .pricing-container {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 4rem;
+  }
+
+  .pricing--start {
+    justify-self: center;
+  }
+
+  .pricing-card {
+    width: 80%;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .plan-features {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+    height: 30rem;
+    grid-row: 1;
+  }
+}

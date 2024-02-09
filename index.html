@@ -6,6 +6,7 @@
     <title>Omnifood</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
   </head>
   <body>
     <header class="header">
@@ -58,7 +59,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="">
           <img src="img/hero.png" alt="" class="hero-img" />
         </div>
       </div>
@@ -79,7 +80,7 @@
         >Your daily dose of health in 3 simple steps
       </h2>
 
-      <div class="container">
+      <div class="how-container">
         <div class="step-text-box">
           <span class="step-number">01</span>
           <h3 class="tertiary-heading">Tell us what you like (and what not)</h3>
@@ -91,11 +92,11 @@
           </p>
         </div>
 
-        <div>
+        <div class="step-img-box">
           <img src="img/app/app-screen-1.png" alt="" />
         </div>
 
-        <div>
+        <div class="step-img-box">
           <img src="img/app/app-screen-2.png" alt="" />
         </div>
 
@@ -119,7 +120,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="step-img-box">
           <img src="img/app/app-screen-3.png" alt="" />
         </div>
       </div>
@@ -290,7 +291,7 @@
       </div>
 
       <div class="pricing-container">
-        <div class="pricing-card">
+        <div class="pricing-card pricing--start">
           <header class="plan-header">
             <h4 class="plan-name">STARTER</h4>
             <p class="plan-price">$399</p>
@@ -329,7 +330,7 @@
         </div>
       </div>
 
-      <p>
+      <p class="plan-details">
         Prices include all applicable taxes. You can cancel at any time. Both
         plans include the following:
       </p>
@@ -369,41 +370,43 @@
     </section>
 
     <section class="section-cta">
-      <div class="cta-content">
-        <h2 class="secundary-heading">Get your first meal for free! </h2>
-        <p class="cta-text">
-          Healthy, tasty and hassle-free meals are waiting for you. Start eating
-          well today. You can cancel or pause anytime. And the first meal is on
-          us!
-        </p>
+      <div class="cta-container">
+        <div class="cta-content">
+          <h2 class="secundary-heading">Get your first meal for free! </h2>
+          <p class="cta-text">
+            Healthy, tasty and hassle-free meals are waiting for you. Start
+            eating well today. You can cancel or pause anytime. And the first
+            meal is on us!
+          </p>
 
-        <form action="" class="cta-form">
-          <div>
-            <label for="">Full Name</label>
-            <input type="text" placeholder="Jhon Smith" />
-          </div>
+          <form action="" class="cta-form">
+            <div>
+              <label for="">Full Name</label>
+              <input type="text" placeholder="Jhon Smith" />
+            </div>
 
-          <div>
-            <label for="">Email address </label>
-            <input type="text" placeholder="me@exemplo.com" />
-          </div>
+            <div>
+              <label for="">Email address </label>
+              <input type="text" placeholder="me@exemplo.com" />
+            </div>
 
-          <div>
-            <label for="">Where did you hear from us?</label>
-            <select name="" id="">
-              <option value="">Please choose your option</option>
-              <option value="">Friends end family</option>
-              <option value="">Youtube</option>
-              <option value="">Facebook add</option>
-              <option value="">Others</option>
-            </select>
-          </div>
+            <div>
+              <label for="">Where did you hear from us?</label>
+              <select name="" id="">
+                <option value="">Please choose your option</option>
+                <option value="">Friends end family</option>
+                <option value="">Youtube</option>
+                <option value="">Facebook add</option>
+                <option value="">Others</option>
+              </select>
+            </div>
 
-          <input type="button" value="Sign up now" class="btn btn--form" />
-        </form>
+            <input type="button" value="Sign up now" class="btn btn--form" />
+          </form>
+        </div>
+
+        <div class="cta-img"> </div>
       </div>
-
-      <div class="cta-img"> </div>
     </section>
 
     <footer class="footer">
