@@ -2,6 +2,10 @@
   --primary-color: #fdf2e9;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -129,6 +133,8 @@ SECTION HOW
 .section-how {
   display: grid;
   place-content: center;
+  max-width: 75rem;
+  margin: auto;
   padding: 6rem 1rem;
 }
 
@@ -349,7 +355,7 @@ SECTION HOW
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
-  margin: 6rem 2rem;
+  margin: 6rem auto;
   font-size: 1.12rem;
   line-height: 1.7;
 }
@@ -361,6 +367,7 @@ SECTION HOW
 }
 
 .section-cta {
+  margin-top: 10rem;
   padding: 1rem;
 }
 
